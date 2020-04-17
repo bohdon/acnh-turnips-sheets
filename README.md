@@ -27,8 +27,9 @@ _NOTE: Column names don't matter, just their indexes_
 ## Usage
 
 - Enter prices throughout the week, and watch the values appear!
-  - `onEdit` is called automatically, and will trigger an update
+  - `onEdit` is called automatically, and will trigger an update if the edited cell is in the prices range
 - Recalculate any selected rows with **Turnips > Calculate Selected Patterns**
+- **Pattern** will only be populated if only one matching pattern has been found (later in the week)
 
 ## Changing Columns
 
